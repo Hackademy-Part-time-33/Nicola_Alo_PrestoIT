@@ -18,12 +18,12 @@ window.addEventListener("scroll", ()=>{
 
 function changeNavbar(background, imgLogo, color1, color2, color3) {
     MyNavbar.classList.add(background);
-        logo.src = `http://127.0.0.1:5500/media/${imgLogo}.png`;
+        logo.src = `./media/${imgLogo}.png`;
         links.forEach((link)=>{
             link.style.color = color1;
             link.addEventListener("mouseenter", ()=>{
-                link.style.borderBottom = color2
-                //link.classList.add('font-weight-light')
+                link.style.borderBottom = color2;
+                //link.style.fontWeight = 'bold';
             })
             link.addEventListener("mouseleave", ()=>{
                 link.style.borderBottom = color3
