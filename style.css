@@ -1,0 +1,126 @@
+* {
+    font-family: "Dosis", sans-serif;   
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: "Dosis", sans-serif;
+}
+
+:root{
+    --Black: rgb(46,46,46);
+    --White: rgb(240,240,240);
+    --Mybrown: rgb(157,82,72);
+}
+
+.bg-Black {
+    background-color: var(--Black);
+}
+
+.bg-White {
+    background-color: var(--White);
+}
+
+.bg-Mybrown {
+    background-color: var(--Mybrown);
+}
+
+.txt-Black {
+    color: var(--Black);
+}
+.txt-White {
+    color: var(--White);
+}
+.txt-Mybrown {
+    color: var(--Mybrown);
+}
+
+/*CSS NAVBAR*/
+
+.nav-custom {
+   background-color: var(--White);
+   height: 90px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   transition: 0.5s;
+}
+
+/*SCROLLED NAVBAR*/
+.nav-blur {
+    backdrop-filter: blur(4px) saturate(0.8);
+    background: rgba(100,100,100,0.9);
+    border-bottom: 3px solid var(--Mybrown);
+}
+
+.img-logo {
+    height: 52px;
+    width: 64px;
+}
+
+.nav-link {
+    color:var(--Black);
+}
+
+/*HEADER*/
+
+header {
+   height:100vh;
+   background: linear-gradient(rgb(240,240,240), rgba(250,250,250, 0.0)), url(./media/header1.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 90px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.form-custom {
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid var(--Mybrown);
+    border-radius: 0;
+    width: 16rem;
+    outline: none;
+}
+
+.btn-custom{
+    height: 30px;
+    width: 90px;
+    border: unset;
+    border-radius: 0;
+    color: var(--Black);
+    background: transparent;
+    z-index: 1;
+    position: relative;
+    transition: all 450ms;
+    overflow: hidden;
+}
+
+.btn-custom::before{
+    content: "";
+    position: absolute;
+    top: 93%;
+    left: 0;
+    height: 100%;
+    width: 0px;
+    border-radius: 0;
+    background-color: var(--Mybrown);
+    z-index: -1;
+    transition: all 450ms;
+}
+
+.btn-custom:hover {
+    color: var(--Mybrown);
+}
+
+.btn-custom:hover::before{
+    width: 100%;
+}
