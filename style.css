@@ -2,6 +2,7 @@
     font-family: "Dosis", sans-serif;   
 }
 
+
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     font-family: "Dosis", sans-serif;
 }
@@ -38,11 +39,12 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .nav-custom {
    background-color: var(--White);
-   height: 90px;
+   min-height: 80px;
    position: fixed;
    top: 0;
    width: 100%;
    transition: 0.5s;
+   z-index: 10;
 }
 
 /*SCROLLED NAVBAR*/
@@ -63,13 +65,13 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 /*HEADER*/
 
-header {
+.HomeHeader {
    height:100vh;
    background: linear-gradient(rgb(240,240,240), rgba(250,250,250, 0.0)), url(./media/header1.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   margin: 90px;
+   margin-top: 80px;
 }
 
 .forms {
@@ -107,7 +109,7 @@ header {
 .btn-custom::before{
     content: "";
     position: absolute;
-    top: 93%;
+    top: 95%;
     left: 0;
     height: 100%;
     width: 0px;
@@ -124,3 +126,219 @@ header {
 .btn-custom:hover::before{
     width: 100%;
 }
+
+/*MAIN*/
+
+.descnum {
+  overflow: hidden;
+}
+
+.main-img1{
+    background-image: url("./media/dressgirl.png");
+    height: 70vh;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-txt1{
+    background-color: var(--White);
+}
+
+.main-img2{
+    background-image: url("./media/shoes.png");
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-txt2{
+    background-color: var(--White);
+}
+
+
+.myLead {
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.numbers {
+  z-index: 1;
+  opacity: 0.2;
+  font-size: 300px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.myFirstBox{
+  height: 70vh;
+}
+
+/*SWIPER*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    color: var(--Black);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+  }
+
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    background:linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./media/swiperimg.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide .title {
+    font-size: 41px;
+    font-weight: 500;
+  }
+
+  .swiper-slide .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+
+  }
+
+  .swiper-slide .text {
+    font-size: 20px;
+    max-width: 400px;
+    line-height: 1.3;
+  }
+
+  .form-custom2 {
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid var(--Mybrown);
+    border-radius: 0;
+    width: 100%;
+    outline: none;
+  }
+
+  .swiper-button-prev{
+    color: var(--Mybrown);
+  }
+  .swiper-button-next{
+    color: var(--Mybrown);
+  }
+
+  .swiper-pagination-bullet {
+    background: var(--Mybrown);
+  }
+
+  /*ANNUNCI*/
+
+  .headerAnnunci{
+    margin-top: 120px;
+  }
+
+  .customAccButton {
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid var(--Mybrown);
+    border-radius: 0;
+    width: 100%;
+    outline: none;
+  }
+
+
+
+.accordion {
+    --bs-accordion-border-color: var(--White);
+    --bs-accordion-border-radius: 0;
+    --bs-accordion-active-bg: var(--White);
+    --bs-accordion-active-color: var(--Black);
+    --bs-accordion-btn-focus-box-shadow: transparent;
+}
+
+.form-check-input[type="radio"] {
+    box-shadow: none;
+  }
+
+.form-check-input[type="radio"]:checked {
+    background-color: var(--Mybrown);
+    color: var();
+    box-shadow: none;
+    border: 0;
+}
+
+.imgCard {
+    border-bottom: 1px solid var(--Mybrown);
+    border-radius: 0;
+}
+
+.myCard{
+    border-radius: 0;
+    border: 1px solid var(--White);
+}
+
+.txtPrice{
+    transform: skewX(-10deg);
+}
+
+.myRange {
+    width: 100%;
+    accent-color: var(--Mybrown);
+}
+
+.descriptionBox {
+    color: var(--Mybrown);
+}
+
+.imgBoxInfo {
+    height: 150px;
+    width: 150px;
+}
+
+.infoBox{
+    border-right: 1px solid var(--Mybrown);
+}
+  
+.foot{
+    margin-top: 60px;
+    background-color: var(--Mybrown);
+  }
+
+  .foot ul {
+    list-style: none;
+  }
+
+  .footCol {
+    border-left: 1px solid var(--White);
+  }
+
+  .footBox{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .copy{
+    background-color: var(--Black);
+    color: var(--White);
+  }

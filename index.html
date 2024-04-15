@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!--my css-->
     <link href="./style.css" rel="stylesheet">
 </head>
 
@@ -29,7 +34,7 @@
                 <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
+                <a class="nav-link" href="./annunci.html">Shop</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Donna</a>
@@ -59,7 +64,7 @@
     <!--FINE NAVBAR-->
  
     <!--HEADER-->
-    <header class="container-fluid">
+    <header class="container-fluid mb-5 HomeHeader">
         <div class="row">
             <div class="col-12 col-md-12 forms">
               <h3>Eleganza senza tempo</br>Scopri la nostra collezione di capi pregiati</h3>
@@ -71,13 +76,152 @@
         </div>
     </header>
     <!--FINE HEADER-->
+
+    <!--CORPO DEL SITO-->
+    <main>
+      <section class="container descnum">
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex justify-content-center main-img1" data-aos="fade-left" data-aos-duration="1000">
+          </div>
+          <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-item-center main-txt1 p-5" data-aos="fade-right" data-aos-duration="500">
+            <h2 class="mb-5">Storia del marchio</h2>
+            <p>Nel cuore della moda italiana, un brand di lusso ha preso vita. Il fondatore, un visionario senza pari, ha unito la sua passione per la moda e il design per creare qualcosa di unico. Conosciuto per la sua abilità sartoriale, ha dato vita a capi tanto eleganti quanto confortevoli. La sua visione era quella di un brand che incarnasse l’eleganza senza tempo e la qualità senza compromessi. Il brand è diventato famoso per i suoi abiti su misura, realizzati con tessuti di alta qualità e rifiniti con dettagli raffinati. Ogni pezzo è un’opera d’arte, riflettendo l’attenzione per i dettagli e la dedizione alla perfezione. Oggi, il brand continua a brillare nel panorama della moda di lusso.</p>
+          </div>   
+        </div>
+
+        <div id="myInter" class="row">
+          <div class="col-12 col-md-6 d-flex justify-content-center main-img2 " data-aos="fade-right" data-aos-duration="1000">
+          </div>
+          <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-item-center main-txt2 p-5 order-md-first text-center myFirstBox" data-aos="fade-left" data-aos-duration="500">
+            <h2 class="mb-5 myLead">Store in tutto il mondo</h2>
+            <p class="lead">
+                <span id="firstNumber" class="numbers">0</span></p>
+          </div>   
+        </div>
+      </section>
+
+      <section class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-12 mb-5">
+            <h2 class="text-center">Raccontaci la tua esperienza</h2>
+          </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="parallax-bg" data-swiper-parallax="-23%">
+              </div>
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-item-center main-txt1 p-5">
+            <h2 class="mb-5">Scrivi una recensione</h2>
+            <div class="mb-3">
+              <label for="userName">Nome</label>
+              <input id="userName"  type="text" class="form-custom2">
+            </div>
+            <div class="mb-3">
+              <label for="userTitle">Titolo</label>
+              <input id="userTitle" type="text" class="form-custom2">
+            </div>
+            <div class="mb-3">
+              <label for="userDescription">Descrizione</label>
+              <input id="userDescription" type="text" class="form-custom2">
+            </div>
+            <div class="mt-2 d-flex justify-content-end">
+              <button id="addReviews" class="btn btn-custom">INVIA</button>
+            </div>     
+          </div>         
+        </div>
+      </div>
+      </section>
+      <section>
+        <div class="text-center mt-5 mb-5">
+          <h2>Come possiamo aiutarti?</h2>
+        </div>
+        <div class="container shipBox mt-5">
+          <div class="row text-center">
+            <div class="col-12 col-md-4 infoBox">
+              <img class="imgBoxInfo mb-2" src="./media/shipping.png" alt="immagine-spedizioni">
+              <h5 class="descriptionBox">Spedizioni Veloci</h5>
+            </div>
+            <div class="col-12 col-md-4 infoBox">
+              <img class="imgBoxInfo mb-2" src="./media/returns.png" alt="immagine-spedizioni">
+              <h5 class="descriptionBox">Resi e cambi gratuiti</h5>
+            </div>
+            <div class="col-12 col-md-4">
+              <img class="imgBoxInfo mb-2" src="./media/appunt.png" alt="immagine-spedizioni">
+              <h5 class="descriptionBox">Prenota un appuntamento in Store</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="foot txt-White d-flex align-items-center">
+        <div class="container footBox">
+          <div class="row">
+            <div class="col-12 col-md-3 d-flex flex-column footCol">
+              <h4>Mettiti in contatto</h4>
+                <p>Contatti</p>
+                <p>FAQ</p>
+            </div>
+            <div class="col-12 col-md-3 d-flex flex-column footCol">
+              <h4>La nostra Azienda</h4>
+                <p>Lavora con noi</p>
+                <p>I nostri negozi</p>
+                <p>I nostri tessuti</p>
+                <p>Le nostre produzioni</p>
+            </div>
+            <div class="col-12 col-md-3 d-flex flex-column footCol">
+              <h4>I nostri Servizi</h4>
+                <p>Tutti i servizi</p>
+                <p>Gift Card</p>
+                <p>Resi e Cambi</p>
+                <p>Spedizioni</p>
+            </div>
+            <div class="col-12 col-md-3 flex-column footCol">
+              <h4>I nostri Canali</h4>
+                <p><i class="fa-brands fa-facebook"></i> Facebook</p>
+                <p><i class="fa-brands fa-twitter"></i> Twitter</p>
+                <p><i class="fa-brands fa-square-instagram"></i> Instagram</p>
+                <p><i class="fa-brands fa-pinterest"></i> Pinterest</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="copy text-center">
+        <p>ideato in Aulab e scritto da Nicola</p>
+      </div>
+    </main>
     
 
 <!--bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <!--fontawesome-->
 <script src="https://kit.fontawesome.com/0dda11444e.js" crossorigin="anonymous"></script>
+<!--swiper-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--my js-->
 <script src="./main.js"></script>
+<!--js aos-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
 </body>
 
 </html>

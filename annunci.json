@@ -1,0 +1,73 @@
+[
+    {
+        "id":1,
+        "name": "Girocollo Shikotsu",
+        "category": "Maglie",
+        "price": "1600",
+        "image": "https://media.loropiana.com/HYBRIS/FAN/FAN6342/D3AE09AC-C399-4A0A-95B8-6AC1D7A41F35/FAN6342_A0E3_SMALL.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Maglia Towada",
+        "category": "Maglie",
+        "price": "1100",
+        "image": "https://media.loropiana.com/HYBRIS/FAN/FAN6334/641352E4-C282-41B9-A40D-5FE00BDA1AA8/FAN6334_1000_SMALL.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Gonna Leah",
+        "category": "Gonne",
+        "price": "2400",
+        "image": "https://media.loropiana.com/HYBRIS/FAO/FAO0037/71DC1A7C-10D3-439B-8AE8-83135C63E397/FAO0037_T1IZ_SMALL.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Gonna Amalie",
+        "category": "Gonne",
+        "price": "800",
+        "image": "https://media.loropiana.com/HYBRIS/FAO/FAO0378/094B3B73-8D91-41B3-849C-74113C5D34BE/FAO0378_P08T_SMALL.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Costume intero Marine",
+        "category": "Costumi",
+        "price": "440",
+        "image": "https://media.loropiana.com/HYBRIS/FAN/FAN9074/C4FD26EF-70F4-4E7F-809E-72780E9AE76A/FAN9074_K03E_SMALL.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Bikini Top",
+        "category": "Costumi",
+        "price":"260",
+        "image": "https://media.loropiana.com/HYBRIS/FAM/FAM7062/24B58E8E-D695-43AC-9525-FBC6144936AC/FAM7062_8000_SMALL.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Cappotto Armen",
+        "category": "Cappotti",
+        "price": "3600",
+        "image": "https://media.loropiana.com/HYBRIS/FAO/FAO0547/9ACBCD12-FB01-4F40-9D2D-8AC367605458/FAO0547_B3V1_SMALL.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Cappotto Condor",
+        "category": "Cappotti",
+        "price": "1750",
+        "image": "https://media.loropiana.com/HYBRIS/FAO/FAO0533/DAA710EC-C07D-448F-9B3C-4ECFA0276F5F/FAO0533_A0FU_SMALL.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Abito Shyanne",
+        "category": "Abiti",
+        "price": "2750",
+        "image": "https://media.loropiana.com/HYBRIS/FAN/FAN6615/A2B2684F-F269-4BAC-813B-5DC00EF43AA7/FAN6615_T1J1_SMALL.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Abito Georgina",
+        "category": "Abiti",
+        "price": "1300",
+        "image": "https://media.loropiana.com/HYBRIS/FAN/FAN6965/244E4C89-6CA3-48BD-821C-5651F608C9EC/FAN6965_50W5_SMALL.jpg"
+    }
+    
+]
